@@ -1,0 +1,1 @@
+# OCR text detection before recognition tool
