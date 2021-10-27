@@ -4,11 +4,14 @@ import pandas as pd
 from datetime import date,datetime
 import imutils
 
+
+#Your system path to tesseract engine
 pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 img = cv2.imread('holo.jpeg') # path to picture
-img = imutils.resize(img, width = 400)
+img = imutils.resize(img, width = 400, height = 600)
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
+
 
 hImg,wImg,_ = img.shape
 # config for detect number only
