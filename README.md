@@ -1,1 +1,1 @@
-# OCR text detection before recognition tool
+# text segmentation and detection tool
