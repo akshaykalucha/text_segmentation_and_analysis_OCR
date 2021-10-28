@@ -1,1 +1,1 @@
-# text segmentation and detection tool
+# text segmentation and detection tool using openCV EAST
